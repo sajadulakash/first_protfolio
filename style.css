@@ -5,7 +5,7 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -38,4 +38,34 @@ section{
     background-image: url(images/why-hire-me.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+p{
+    color: gray;
+}
+#project-style{
+    padding-inline-start: 100px;
+}
+.project-box{
+    box-shadow: 10px 10px 50px; 
+    border-radius: 10px;
+    height: 60%;
+}
+.project-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    background-size: 4%;
+}
+#line-draw-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,rgb(247, 227, 54));
+    border-image-slice: 1;
+}
+#draw-line-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,rgb(164, 72, 250));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
